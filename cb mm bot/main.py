@@ -1,7 +1,7 @@
 from structs import discord, websocket
 import asyncio
 
-__TOKEN = "ODQxOTYyNDc0MTA5NDAzMTM3.YJuYqA.sONK7gQYv0yUsT38rGanJYBc4e8"
+__TOKEN = "" #insert ur bot token here
 
 asyncio.get_event_loop().create_task(discord.client.start(__TOKEN))
 websocket.init()
