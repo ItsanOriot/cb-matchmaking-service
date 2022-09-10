@@ -1,4 +1,4 @@
-local websocket = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blue-v3rm/symmetrical-guide/main/client/websocket.lua"))()
+local websocket = loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsanOriot/cb-matchmaking-service/main/cb%20mm%20bot/client/websocket.lua"))() --props to Blue-v3rm for the sick websocket stuff
 local ws = websocket.new("ws://localhost:6789")
 ws:init(game:GetService('Players').LocalPlayer.UserId) -- sends your ID as an identifier
 
